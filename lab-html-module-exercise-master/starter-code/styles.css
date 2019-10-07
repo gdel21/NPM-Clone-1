@@ -11,6 +11,12 @@
       color: white;
   }
 
+.bear-logo{
+  padding: 0, 0, 0, 20px;
+  height: 30px;
+  width: 30px;
+}
+
 .npm-logo{
     padding: 0 8px 0 0;
     height: 5%;
@@ -31,8 +37,18 @@ text-align: center;
 .npm-search-input {
     background: transparent;
     border: 1px solid white;
-    line-height: 30px;
-    width: 550%;
+    line-height: 10px;
+    width: 80%;
+    height: 30px;
+}
+
+.search-button{
+  padding: 10px;
+  height:30px;
+}
+
+.searchbar-signup-links{
+  text-decoration: none;
 }
 
 .npm-main{
@@ -76,18 +92,16 @@ nav {
 }
 
 .npm-button a{
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+    text-align: center;
     text-decoration: none;
-    padding: -5px 0 0 0;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: orange;
 }
 
-.service-box {
-    background-color: orange;
-    font-size: 1.7em;
-    text-align: center;
-    border-radius: 20px;
-    padding: 5px;
-    width: 15%;
-}
   .npm-signup-section{
     display: flex;
     justify-content: center;
@@ -111,20 +125,15 @@ nav {
     padding: 5% 0 0 0;
 }
 
-  .orgs-signup-btn a{
-    background-color: rgb(255, 46, 46);
-    padding: 15px;
-    margin: 10px;
-}
-
 .orgs-signup-btn a{
     color: white;
-    font-size: 1.5em;
+    background-color: rgb(255, 46, 46);
+    font-size: 1em;
     letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
     border-radius: 50px;
-    padding: 10px 1;
+    padding: 10px;
 }
 
 .orgs-learn-more{
@@ -154,7 +163,8 @@ nav {
 
   .orgs-text-container ul{
     line-height: 30px;
-    padding: 0 0 20px 0;
+    padding: 0 0 40px 500px;
+    width: 200%;
   }
 
 .orgs-signup h1{
